@@ -1,0 +1,19 @@
+<view class='container'>
+    <view class="tunnel">
+        <navigator url="../nov-map/nov-map" open-type="navigate" class="uploader-text">
+            <text>地图</text>
+        </navigator>
+    </view>
+    <view class="tunnel">
+        <navigator url="../voice/voice" open-type="navigate" class="uploader-text">
+            <text>语音识别</text>
+        </navigator>
+    </view>
+    
+    <view class="tunnel">
+        <navigator url="../architecture/architecture" open-type="navigate" class="uploader-text">
+            <text>建筑信息</text>
+        </navigator>
+    </view>
+
+</view>

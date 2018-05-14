@@ -1,0 +1,10 @@
+<!--pages/nov/nov-map.wxml-->
+
+<view>
+      <map id='myMap' longitude='{{currentLongitude}}' latitude='{{currentLatitude}}' scale='{{scale}}'
+      controls='{{controls}}' bindcontroltap="controltap" show-location='true' markers='{{marks}}'
+           bindmarkertap="markertap" bindtap="maptap" bindregionchange="regionchange">
+      </map>
+   
+</view>
+

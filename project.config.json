@@ -1,0 +1,74 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"libVersion": "1.9.9",
+	"compileType": "miniprogram",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "nov-map",
+					"pathName": "pages/nov-map/nov-map",
+					"query": "",
+					"scene": "1011"
+				},
+				{
+					"id": -1,
+					"name": "voice",
+					"pathName": "pages/voice/voice",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "architecture",
+					"pathName": "pages/architecture/architecture",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "search",
+					"pathName": "pages/search/search",
+					"query": "",
+					"scene": "1011"
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": 6,
+					"name": "webview-test",
+					"pathName": "pages/webview-test/webview-test",
+					"query": "",
+					"scene": "1011"
+				}
+			]
+		}
+	}
+}

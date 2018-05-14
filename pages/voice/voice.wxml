@@ -1,0 +1,17 @@
+<!--pages/voice/voice.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">识别结果</view>
+        <view>{{msg}}</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-cells-title">选择地点</view>
+        <view class="weui-cells weui-cells_after-title">
+            <navigator wx:for="{{result}}" wx:key="i" url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd">{{item}}</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+            </navigator>
+        </view>
+        <button class='recorder' bind:touchstart='startVoice' bind:touchend='endVoice'>按住说出要去的地点</button>
+    </view>
+</view>

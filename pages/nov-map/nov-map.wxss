@@ -1,0 +1,21 @@
+/* pages/nov/nov-map.wxss */
+
+map{
+  width: 100vw;
+  height: 100vh;
+}
+
+#search{
+  position: relative;
+  width: 90vw;
+  margin: 5px auto;
+}
+
+#current{
+  width: 50px;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 2vh;
+  right: 1vw;
+}

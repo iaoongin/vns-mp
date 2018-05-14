@@ -1,0 +1,25 @@
+<!--pages/architecture/architecture.wxml-->
+
+<view class='page'>
+  <view id='desc' class='weui-panel'>
+    <rich-text nodes="{{desc}}" style='height: 80%'></rich-text>
+  </view> 
+
+  <view id='comments' class='weui-panel '>
+    <view class='weui-panel__hd'>评论区</view>
+    <view class='weui-panel__bd'>
+      <view class='weui-media-box weui-media-box_text'>
+        八块八看似简单并发科技
+      </view>
+    </view>
+    <view class='weui-panel__ft'>
+      <view class='weui-cell weui-cell_access weui-cell_link'>更多</view>
+    </view>
+  </view>
+
+  <view class='comment-bar weui-panel weui-cell'>
+    <input placeholder='写评论' class=''></input>
+    <button>提交</button>
+  </view>
+</view>
+

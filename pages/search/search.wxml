@@ -1,0 +1,24 @@
+<!--pages/search/search.wxml-->
+<view id='body'>
+    <view class='top searchbar' style='background-image: url({{sBackgroundImg}})'>
+        <input value='{{searchKey}}' placeholder='搜索地点' placeholder-class="phcolor" bindinput='keyInput'></input>
+        <button id='clear' hidden="{{ clearFlag }}" bindtap='clearSearch'>清空</button>
+        <button id='search' hidden="{{ !clearFlag }}">搜索</button>
+    </view>
+
+    <!-- <view class='weui-cells' style='border:none;transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);margin-top:0;' hidden='{{ resultFlag }}'> -->
+    <view class='weui-cells weui-cells_access search_show'
+          style='border:none;transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);margin-top:0;'>
+
+        <view wx:for="{{result}}" wx:key="index" class='weui-cell'>
+            <view class='weui-cell__bd weui-cell_primary' bindtap="touch" data-packages="{{ item }}">
+                <view>
+                    <image src='/static/img/位置.png'></image>
+                    <text>{{index}} {{item.name}}</text>
+                </view>
+                <view class='weui-cells__tips'><!--{{ item.distance }} 米--> {{item.address}}</view>
+            </view>
+        </view>
+    </view>
+
+</view>

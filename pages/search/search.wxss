@@ -1,0 +1,58 @@
+/* pages/search/search.wxss */
+ @import "/static/css/weui.wxss"; 
+
+#body{
+  /* background-color: #D9D9D9; */
+  background-color: #f8f8f8;
+  width: 100vw;
+  height: 100vh;
+}
+
+.top{
+  width: 100vw;
+  height: 10vh;
+  background-repeat: no-repeat;
+  background-size: 100vw 10vh;
+}
+
+.top input{
+    height: 10vh;
+    width: 80vw;
+    left: 4vw;
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+.phcolor{
+  color: white;
+}
+
+.top button#search, .top button#clear{
+  height: 10vh;
+  line-height: 10vh;
+  padding-left: 6vw;
+  display: inline-block;
+  background: none;
+  border: none;
+  border-radius: none;
+  color: white;
+}
+
+.top button#clear{
+  height: 10vh;
+  line-height: 10vh;
+  display: inline-block;
+  background: none;
+  border: none;
+  border-radius: none;
+  color: white;
+}
+
+button::after{ border: none; }
+/* view.weui-cells::before,view.weui-cells::after{ border: none; } */
+
+image{
+  width: 1em;
+  height: 1em;
+}

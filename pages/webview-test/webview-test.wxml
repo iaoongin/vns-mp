@@ -1,0 +1,2 @@
+<!--pages/webview-test/webview-test.wxml-->
+<web-view src="https://zhihu.com"></web-view>

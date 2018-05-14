@@ -1,0 +1,7 @@
+/* pages/voice/voice.wxss */
+
+.recorder{
+  position: absolute;
+  bottom: 50px;
+  left: 28vw;
+}
