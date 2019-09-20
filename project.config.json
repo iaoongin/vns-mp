@@ -7,7 +7,7 @@
 		"minified": true,
 		"newFeature": true
 	},
-	"libVersion": "1.9.9",
+	"libVersion": "2.8.3",
 	"compileType": "miniprogram",
 	"appid": "wx3d5eaa561f753587",
 	"projectname": "vns-mp",

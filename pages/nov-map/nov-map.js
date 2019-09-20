@@ -332,7 +332,7 @@ var page = Page({
         }
     },
     // 视野发生变化
-    /*regionchange(e) {
+    regionchange(e) {
         // console.log(e)
         var that = this;
         myMap.getScale({
@@ -347,6 +347,8 @@ var page = Page({
                     var marks = that.data.marks;
                     // marks图标缩放
                     var ratio = currentScale / oldScale
+                    if (ratio == 0) ratio = 1
+                    if(ratio <= 0.00001) ratio = 1
                     console.log("ratios:" + ratio)
                     for (let i in marks) {
                         marks[i].width *= ratio;
@@ -359,5 +361,5 @@ var page = Page({
                 }
             }
         })
-    }*/
+    }
 })
