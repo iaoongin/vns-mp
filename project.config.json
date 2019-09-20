@@ -9,6 +9,10 @@
 	},
 	"libVersion": "1.9.9",
 	"compileType": "miniprogram",
+	"appid": "wx3d5eaa561f753587",
+	"projectname": "vns-mp",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
