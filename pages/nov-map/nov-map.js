@@ -125,6 +125,7 @@ var page = Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
     var that = this;
     app = getApp();
 
@@ -210,6 +211,7 @@ var page = Page({
         break;
         // 路线
       case 3:
+        var archs = that.data.marksBack
         console.log(arch_id)
         if (arch_id != {}) {
           wx.openLocation({
@@ -270,7 +272,7 @@ var page = Page({
     // 获取mark的id
     // var id = e.markerId;
     var old = arch_id;
-    arch_id = e.markerId -1;
+    arch_id = e.markerId - 1;
     // 获取当前的控件
     var controls = this.data.controls;
     // 判断是否有第7控件
@@ -368,7 +370,7 @@ var page = Page({
             marks[i].width = marksBack[i].width * ratio;
             marks[i].height = marksBack[i].height * ratio;
           }
-          
+
           that.setData({
             'marks': marks,
             'oldScale': currentScale
